@@ -1,7 +1,3 @@
----
-title: This is my title
----
-
 # SpaceNet Utilities
 
 Instruction for the download of [SpaceNet](https://aws.amazon.com/public-data-sets/spacenet/) satellite imagery data corpus to a format that is consumable by machine learning algorithms.
