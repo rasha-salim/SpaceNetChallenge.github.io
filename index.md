@@ -1,11 +1,8 @@
-# SpaceNet Utilities
+# Hosting
+[SpaceNet](https://aws.amazon.com/public-datasets/spacenet/) is a corpus of commercial satellite imagery and labeled training data to use for machine learning research. The dataset is currently hosted as an [Amazon Web Services (AWS) Public Dataset](https://aws.amazon.com/public-datasets/).
 
-Instruction for the download of [SpaceNet](https://aws.amazon.com/public-data-sets/spacenet/) satellite imagery data corpus to a format that is consumable by machine learning algorithms.
-
-
-
-## Dependencies
-Required that AWS CLI is installed and that an active AWS account with credit card is associated with the aws cli
+# Dependencies
+The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be installed with an active AWS account.
 
 Configure the AWS CLI using aws configure
 
