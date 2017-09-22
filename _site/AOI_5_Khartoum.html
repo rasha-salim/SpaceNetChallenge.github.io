@@ -45,29 +45,46 @@
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_5_Khartoum/AOI_5_Khartoum_SrcTindexex.geojson"></script>
 
 <h2 id="spacenet-simple-storage-service-s3-directory-structure-aoi-2">SpaceNet Simple Storage Service (S3) Directory Structure (AOI 2)</h2>
-<div class="highlighter-rouge"><pre class="highlight"><code>├── AOI_5_Khartoum_Train
-│   ├── geojson
-│   │   └── buildings  # Contains GeoJson labels of buildings for each tile
-│   ├── MUL            # Contains Tiles of 8-Band Multi-Spectral raster data from WorldView-3
-│   ├── MUL-PanSharpen # Contains Tiles of 8-Band Multi-Spectral raster data pansharpened to 0.3m
-│   ├── PAN            # Contains Tiles of Panchromatic raster data from Worldview-3
-│   ├── RGB-PanSharpen # Contains Tiles of RGB raster data from Worldview-3
-│   └── summaryData    # Contains CSV with pixel based labels for each building in the Tile Set.
+<div class="highlighter-rouge"><pre class="highlight"><code>AOI_5_Khartoum
+├── srcData/rasterData
+│   ├── MUL            # Raw souce geotiffs of 8-Band Multi-Spectral raster data from WorldView-3
+│   ├── MUL-PanSharpen # Raw souce geotiffs of 8-Band Multi-Spectral raster data pansharpened to 0.3m
+│   ├── PAN            # Raw souce geotiffs of Panchromatic raster data from Worldview-3
+│   └── RGB-PanSharpen # Raw souce geotiffs of RGB raster data from Worldview-3 pansharpened to 0.3m
+│      
+├── AOI_5_Khartoum_Train.tar.gz
+│      ├── geojson
+│      │   └── buildings  # Contains GeoJson labels of buildings for each tile
+│      ├── MUL            # Contains Tiles of 8-Band Multi-Spectral raster data from WorldView-3
+│      ├── MUL-PanSharpen # Contains Tiles of 8-Band Multi-Spectral raster data pansharpened to 0.3m
+│      ├── PAN            # Contains Tiles of Panchromatic raster data from Worldview-3
+│      ├── RGB-PanSharpen # Contains Tiles of RGB raster data from Worldview-3
+│      └── summaryData    # Contains CSV with pixel based labels for each building in the Tile Set.
+├── AOI_5_Khartoum_Test_Public.tar.gz
+│      ├── MUL            # Contains Tiles of 8-Band Multi-Spectral raster data from WorldView-3
+│      ├── MUL-PanSharpen # Contains Tiles of 8-Band Multi-Spectral raster data pansharpened to 0.3m
+│      ├── PAN            # Contains Tiles of Panchromatic raster data from Worldview-3
+│      └── RGB-PanSharpen # Contains Tiles of RGB raster data from Worldview-3      
 </code></pre>
 </div>
 <h2 id="download-instructions">Download instructions</h2>
 
-<h3 id="aoi-1---rio-de-janeiro">AOI 1 - Rio de Janeiro</h3>
+<h3 id="aoi-5---khartoum">AOI 5 - Khartoum</h3>
 <p>To view the contents of the dataset</p>
 <pre><code class="language-commandline">aws s3 ls spacenet-dataset/AOI_5_Khartoum/ --request-payer requester
 </code></pre>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>### AOI 2 - Vegas
-To download processed 200mx200m tiles of AOI 2 (23 GB) with associated building footprints do the following:
+<h3 id="aoi-5---khartoum---training">AOI 5 - Khartoum - Training</h3>
+<p>To download processed 200mx200m tiles of AOI 2 (4.7 GB) with associated building footprints do the following:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>aws s3api get-object --bucket spacenet-dataset --key AOI_5_Khartoum/AOI_5_Khartoum_Train.tar.gz --request-payer requester AOI_5_Khartoum_Train.tar.gz
 </code></pre>
 </div>
-<p>aws s3api get-object –bucket spacenet-dataset –key AOI_5_Khartoum/AOI_5_Khartoum_Train.tar.gz –request-payer requester AOI_5_Khartoum_Train.tar.gz
-```</p>
+
+<h3 id="aoi-5---khartoum---testing">AOI 5 - Khartoum - Testing</h3>
+<p>To download processed 200mx200m tiles of AOI 2 (1.6 GB) for testing do:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>aws s3api get-object --bucket spacenet-dataset --key AOI_5_Khartoum/AOI_5_Khartoum_Test_public.tar.gz --request-payer requester AOI_5_Khartoum_Train.tar.gz
+</code></pre>
+</div>
 
         </section>
 
