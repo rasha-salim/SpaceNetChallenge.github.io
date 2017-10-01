@@ -1,3 +1,9 @@
+---
+layout: aoi
+title: AOI 1 Rio
+sidebar: aoi
+---
+
 ## SpaceNet AOI 1 Area covered
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_1_Rio/AOI_1_Rio_SrcTindexex.geojson"></script>
 

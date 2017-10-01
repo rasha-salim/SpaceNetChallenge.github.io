@@ -1,6 +1,6 @@
 ---
 layout: toplevel
-title: ''
+title: Datasets
 sidebar: toplevel
 ---
 ## Hosting
@@ -45,6 +45,5 @@ The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be inst
 ```commandline
 aws s3 ls s3://spacenet-dataset/ --request-payer requester
 ```
-
 
 

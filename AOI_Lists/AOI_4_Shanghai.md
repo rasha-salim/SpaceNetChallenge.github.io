@@ -1,8 +1,13 @@
-## SpaceNet AOI 2 Area covered
+---
+layout: aoi
+title: AOI 4 Shanghai
+sidebar: aoi
+---
+## SpaceNet AOI 4 Area covered
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_4_Shanghai/AOI_4_Shanghai_SrcTindexex.geojson"></script>
 
 
-## SpaceNet Simple Storage Service (S3) Directory Structure (AOI 2)
+## SpaceNet Simple Storage Service (S3) Directory Structure (AOI 4)
 ```
 AOI_4_Shanghai
 ├── srcData/rasterData

@@ -1,3 +1,8 @@
+---
+layout: aoi
+title: AOI 2 Las Vegas
+sidebar: aoi
+---
 ## SpaceNet AOI 2 Details
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_2_Vegas/AOI_2_Vegas_SrcTindexex.geojson"></script>
 
