@@ -3,47 +3,46 @@ layout: toplevel
 title: Tutorials
 sidebar: toplevel
 ---
-## Hosting
-[SpaceNet](https://aws.amazon.com/public-datasets/spacenet/) is a corpus of commercial satellite imagery and labeled
- training data to use for machine learning research. The dataset is currently hosted as an [Amazon Web Services (AWS) Public Dataset](https://aws.amazon.com/public-datasets/).
 
-SpaceNet offers 
 
-## Catalog
-1. [Area of Interest 1 (AOI 1) - Location: Rio de Janeiro.](/AOI_Lists/AOI_1_Rio.html) 50cm imagery collected from DigitalGlobe’s [WorldView-2 satellite](http://satimagingcorp.s3.amazonaws.com/site/pdf/WorldView-2_datasheet.pdf). The dataset includes building footprints and 8-band multispectral data.
-2. [Area of Interest 2 (AOI 2) - Location: Vegas.](/AOI_Lists/AOI_2_Vegas.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
-3. [Area of Interest 3 (AOI 3) - Location: Paris.](/AOI_Lists/AOI_3_Paris.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
-4. [Area of Interest 4 (AOI 4) - Location: Shanghai.](/AOI_Lists/AOI_4_Shanghai.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
-5. [Area of Interest 5 (AOI 5) - Location: Khartoum.](/AOI_Lists/AOI_5_Khartoum.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
 
-<style> table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #000000;
-}
+# GITHUB Examples
 
-th{
-    border:2px solid #000000;
-}
 
-td{
-    border:1px solid #000000;
-}
-</style>
+# Techcrunch:
+[SpaceNet satellite imagery repository launched by DigitalGlobe, CosmiQ Works and NVIDIA on AWS](https://techcrunch.com/2016/08/25/spacenet-satellite-imagery-repository-launched-by-digitalglobe-cosmiq-works-and-nvidia-on-aws/)
 
-| AOI            | Area of Raster (Sq. Km) | Building Labels (Polygons) |
-|----------------|-------------------------|----------------------------|
-| [AOI_1_Rio](/AOI_Lists/AOI_1_Rio.html)      | 2,544                   | 4,082,529                  |
-| [AOI_2_Vegas](/AOI_Lists/AOI_2_Vegas.html)     | 216                     | 151,367                    |
-| [AOI_3_Paris](/AOI_Lists/AOI_3_Paris.html)    | 1,030                   | 23,816                     |
-| [AOI_4_Shanghai](/AOI_Lists/AOI_4_Shanghai.html) | 1,000                   | 92,015                     |
-| [AOI_5_Khartoum](/AOI_Lists/AOI_5_Khartoum.html) | 765                     | 710,960                    |
 
-## Dependencies
-The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be installed with an active AWS account. Configure the AWS CLI using 'aws configure'
+# DG Press Releases:
+[DigitalGlobe Announces SpaceNet Challenge Results and Plans for Follow-on Competition](http://investor.digitalglobe.com/phoenix.zhtml?c=70788&p=irol-newsArticle&ID=2236534)
 
-```commandline
-aws s3 ls s3://spacenet-dataset/ --request-payer requester
-```
+[The SpaceNet Challenge: help us to harness machine learning to make maps more current and complete](http://blog.digitalglobe.com/developers/the-spacenet-challenge-help-us-to-harness-machine-learning-to-make-maps-more-current-and-complete/)
+
+# NGA Participation:
+[NGA capitalizes on SpaceNet’s efforts](https://www.nga.mil/MediaRoom/PressReleases/Pages/NGA-capitalizes-on-SpaceNet%E2%80%99s-efforts.aspx)
+
+# NVIDIA Tech Blog
+[Exploring the SpaceNet Dataset Using DIGITS](https://devblogs.nvidia.com/parallelforall/exploring-spacenet-dataset-using-digits/)
+
+# The DownLinQ
+[Object Detection on SpaceNet](https://medium.com/the-downlinq/object-detection-on-spacenet-5e691961d257)
+
+[The SpaceNet Metric](https://medium.com/the-downlinq/the-spacenet-metric-612183cc2ddb)
+
+[SpaceNet Update — Announcing Rio de Janeiro Points of Interest (POI) Dataset Release](https://medium.com/the-downlinq/spacenet-update-announcing-rio-de-janeiro-point-of-interest-poi-dataset-release-d8abac6896e1)
+
+[Getting Started With SpaceNet Data](https://medium.com/the-downlinq/getting-started-with-spacenet-data-827fd2ec9f53)
+
+[SpaceNet: Winning Implementations and New Imagery Release](https://medium.com/the-downlinq/spacenet-winning-implementations-and-new-imagery-release-55f738e14253)
+
+[Building Extraction with YOLT2 and SpaceNet Data](https://medium.com/the-downlinq/building-extraction-with-yolt2-and-spacenet-data-a926f9ffac4f)
+
+[Super-Resolution on Satellite Imagery using Deep Learning, Part 3](https://medium.com/the-downlinq/super-resolution-on-satellite-imagery-using-deep-learning-part-3-2e2f61eee1d3)
+
+[SpaceNet Labels To Pascal VOC SBD Benchmark Release Labels](https://medium.com/the-downlinq/spacenet-labels-to-pascal-voc-sbd-benchmark-release-labels-a7eb9218157a)
+
+[Object Segmentation on SpaceNet via Multi-task Network Cascades (MNC)](https://medium.com/the-downlinq/object-segmentation-on-spacenet-via-multi-task-network-cascades-mnc-f1c89d790b42)
+
+
 
 

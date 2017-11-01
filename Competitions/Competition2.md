@@ -1,7 +1,7 @@
 ---
 layout: competitions
 title: "Building Foot Print Extraction: Round 2"
-sidebar: competitions
+sidebar: BuildingExtractor
 ---
 ## SpaceNet Round 2 Challenge Implementations
 ## SpaceNet Challenge Implementations

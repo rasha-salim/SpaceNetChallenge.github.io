@@ -7,8 +7,18 @@ categories:
  - toplevel
 ---
 
-## Competetion
+# Curent Challenge
+[Road Network Extraction: Round 1](/Competitions/Competition3.html)
 
-[Building Footprint Extraction Round 1](/Competitions/Competition1.html)
+# Future Challenges
 
-[Building Footprint Extraction Round 2](/Competitions/Competition2.html)
+
+# Past Challenges:
+
+### Building Extractor Challenge:
+
+[Building Footprint Extraction: Round 2](/Competitions/Competition2.html)
+
+[Building Footprint Extraction: Round 1](/Competitions/Competition1.html)
+
+
