@@ -7,7 +7,14 @@ sidebar: toplevel
 [SpaceNet](https://aws.amazon.com/public-datasets/spacenet/) is a corpus of commercial satellite imagery and labeled
  training data to use for machine learning research. The dataset is currently hosted as an [Amazon Web Services (AWS) Public Dataset](https://aws.amazon.com/public-datasets/).
 
-SpaceNet offers 
+## Github Repositories
+Check out our SpaceNet Utilities for some helpful tools for using geospatial data for machine learning
+1.  [SpaceNetUtilities](https://github.com/SpaceNetChallenge/utilities)
+
+
+## Next Competition
+The next competition will be roads extraction.  See the [Roads Competition Page](/Competitions/Competition3.md) for more details
+
 
 ## Catalog
 1. [Area of Interest 1 (AOI 1) - Location: Rio de Janeiro.](/AOI_Lists/AOI_1_Rio.html) 50cm imagery collected from DigitalGlobe’s [WorldView-2 satellite](http://satimagingcorp.s3.amazonaws.com/site/pdf/WorldView-2_datasheet.pdf). The dataset includes building footprints and 8-band multispectral data.
@@ -47,4 +54,10 @@ aws s3 ls s3://spacenet-dataset/ --request-payer requester
 ```
 
 
+# Competition Updates:
+For competition email updates, [Sign up here](http://explore.digitalglobe.com/spacenet)
+
+Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
+
+or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)
 

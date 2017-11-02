@@ -3,7 +3,7 @@ layout: competitions
 title: "Building Foot Print Extraction: Round 1"
 sidebar: BuildingExtractor
 ---
-## SpaceNet Challenge Implementations
+## SpaceNet Round 1 Challenge Implementations
 
 ## The Problem
 The commercialization of the geospatial industry has led to an explosive amount of data being collected to characterize our changing planet. One area for innovation is the application of computer vision and deep learning to extract information from satellite imagery at scale. DigitalGlobe, CosmiQ Works, and NVIDIA have partnered to release the SpaceNet data set to the public to enable developers and data scientists.

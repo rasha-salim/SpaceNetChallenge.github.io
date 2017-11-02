@@ -1,5 +1,5 @@
 ---
-layout: toplevel
+layout: aoi
 title: Datasets
 sidebar: toplevel
 ---
