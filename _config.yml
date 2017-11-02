@@ -1,3 +1,9 @@
 theme: jekyll-theme-tactile
 title: SpaceNet on AWS
-description: Dataset Description and Download Instructions
+description: Spacenet on AWS Dataset Description and download instructions
+baseurl: ""
+url: "http://spacenetchallenge.github.io"
+github_username: dlindenbaum
+
+# Build settings
+markdown: kramdown
