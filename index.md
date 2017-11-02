@@ -10,6 +10,7 @@ sidebar: toplevel
 ## Github Repositories
 Check out our SpaceNet Utilities for some helpful tools for using geospatial data for machine learning
 1.  [SpaceNetUtilities](https://github.com/SpaceNetChallenge/utilities)
+2.  [Average Path Length Similarity (APLS) metric](https://github.com/CosmiQ/apls)
 
 
 ## Next Competition

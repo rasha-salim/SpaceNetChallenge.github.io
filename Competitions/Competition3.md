@@ -16,7 +16,7 @@ Today, map features such as roads, building footprints, and points of interest a
 # The Metric
 In the SpaceNet Roads Challenge, the metric for ranking entries is the APLS metric.  This metric is based on graph theory and empahsizes the creation of a valid road network
 
-
+The current version of the metric is open sourced on github:  [Average Path Length Similarity (APLS) metric](https://github.com/CosmiQ/apls)
 For more information read the full article written by Adam Van Etten at [The DownlinQ](https://medium.com/the-downlinq/2nd-spacenet-competition-winners-code-release-c7473eea7c11).
 
 
