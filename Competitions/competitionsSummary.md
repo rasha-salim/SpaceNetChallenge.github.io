@@ -10,7 +10,6 @@ categories:
 # Curent Challenge
 [Road Network Extraction: Round 1](/Competitions/Competition3.html)
 
-# Future Challenges
 
 
 # Past Challenges:
