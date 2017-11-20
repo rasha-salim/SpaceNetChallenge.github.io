@@ -1,7 +1,7 @@
 ---
 layout: competitions
-title: "Building Foot Print Extraction: Round 1"
-sidebar: BuildingExtractor
+title: "Building Foot Print Extraction"
+sidebar: competitions
 ---
 
 

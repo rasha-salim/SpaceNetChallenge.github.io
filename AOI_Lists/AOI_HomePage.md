@@ -1,22 +1,13 @@
 ---
-layout: toplevel
-title: ''
+layout: aoi
+title: Areas of Interest
 sidebar: toplevel
 ---
 ## Hosting
 [SpaceNet](https://aws.amazon.com/public-datasets/spacenet/) is a corpus of commercial satellite imagery and labeled
  training data to use for machine learning research. The dataset is currently hosted as an [Amazon Web Services (AWS) Public Dataset](https://aws.amazon.com/public-datasets/).
 
-## Github Repositories
-Check out our SpaceNet Utilities for some helpful tools for using geospatial data for machine learning
-1.  [SpaceNetUtilities](https://github.com/SpaceNetChallenge/utilities)
-2.  [Average Path Length Similarity (APLS) metric](https://github.com/CosmiQ/apls)
-3.  [SpaceNet Challenge Round 1 Solutions](https://github.com/SpaceNetChallenge/BuildingDetectors/)
-4.  [SpaceNet Challenge Round 2 Solutions](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2)
-
-## Next Competition
-The next competition will be roads extraction.  See the [Roads Competition Page](/Competitions/Competition3.md) for more details
-
+SpaceNet offers 
 
 ## Catalog
 1. [Area of Interest 1 (AOI 1) - Location: Rio de Janeiro.](/AOI_Lists/AOI_1_Rio.html) 50cm imagery collected from DigitalGlobe’s [WorldView-2 satellite](http://satimagingcorp.s3.amazonaws.com/site/pdf/WorldView-2_datasheet.pdf). The dataset includes building footprints and 8-band multispectral data.
@@ -48,7 +39,6 @@ td{
 | [AOI_4_Shanghai](/AOI_Lists/AOI_4_Shanghai.html) | 1,000                   | 92,015                     |3537 km                  |
 | [AOI_5_Khartoum](/AOI_Lists/AOI_5_Khartoum.html) | 765                     | 710,960                    |1030 km                 |
 
-
 ## Dependencies
 The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be installed with an active AWS account. Configure the AWS CLI using 'aws configure'
 
@@ -56,11 +46,4 @@ The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be inst
 aws s3 ls s3://spacenet-dataset/ --request-payer requester
 ```
 
-
-# Competition Updates:
-For competition email updates, [Sign up here](http://explore.digitalglobe.com/spacenet)
-
-Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
-
-or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)
 
