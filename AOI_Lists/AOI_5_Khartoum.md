@@ -64,8 +64,7 @@ To download processed 400mx400m tiles of AOI 5 (8.1 GB) for testing do:
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Test_Public.tar.gz --request-payer requester AOI_5_Khartoum_Roads_Test_Public.tar.gz
 ```
 
-
-
+# SpaceNet Buildings Dataset
 ### AOI 5 - Khartoum - Training
 To download processed 200mx200m tiles of AOI 2 (4.7 GB) with associated building footprints do the following:
 ```

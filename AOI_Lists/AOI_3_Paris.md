@@ -64,6 +64,8 @@ To download processed 400mx400m tiles of AOI 3 (1.9 GB) for testing do:
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_3_Paris_Roads_Test_Public.tar.gz --request-payer requester AOI_3_Paris_Roads_Test_Public.tar.gz
 ```
 
+
+# SpaceNet Buildings Dataset
 ### AOI 3 - Paris - Training
 To download processed 200mx200m tiles of AOI 2 (5.3 GB) with associated building footprints do the following:
 ```

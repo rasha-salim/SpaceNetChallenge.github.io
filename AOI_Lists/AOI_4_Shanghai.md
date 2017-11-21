@@ -59,7 +59,7 @@ aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/
 ```
 
 
-
+# SpaceNet Buildings Dataset
 ### AOI 4 - Shanghai - Training
 To download processed 200mx200m tiles of AOI 4 (23.4 GB) with associated building footprints do the following:
 ```

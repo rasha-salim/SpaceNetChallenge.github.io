@@ -6,7 +6,6 @@ sidebar: aoi
 ## SpaceNet AOI 2 Details
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_2_Vegas/AOI_2_Vegas_SrcTindexex.geojson"></script>
 
-##
 
 ## SpaceNet Simple Storage Service (S3) Directory Structure (AOI 2)
 ```
@@ -67,6 +66,7 @@ aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/
 ```
 
 
+# SpaceNet Buildings Dataset
 ### AOI 2 - Vegas -  Building Extraction Training
 To download processed 200mx200m tiles of AOI 2 (23 GB) with associated building footprints for training do the following:
 ```
