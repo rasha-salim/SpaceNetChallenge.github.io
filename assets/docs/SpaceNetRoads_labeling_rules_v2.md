@@ -17,7 +17,7 @@ b.	Divided highways should have two centerlines, a centerline for each direction
 8.	Number of lanes will be listed as number of lanes for each centerline as defined in rule 1.  If road has two lanes in each direction, the number of lanes shall equal 4.  If a road has 3 lanes in one direction and 2 directions in another the total number of lanes shall be 5.
 
 
-## Definition of Divided Highway:
+## Definition of a divided highway:
 
 A divided highway is a road that has a median or barrier that physically prevents turns across traffic.
 A median can be:
@@ -32,7 +32,7 @@ A median is not:
     ●	Yellow hatched lines on pavement.
 
 
-## Road Type Guidelines:
+## Road type guidelines:
 All road types were defined using the Open Street Maps taxonomy for key=highway. The below descriptions were taken from the [Open Street Maps tagging guidelines for highway](http://wiki.openstreetmap.org/wiki/Key:highway) and the [East Africa Tagging Guidelines](http://wiki.openstreetmap.org/wiki/East_Africa_Tagging_Guidelines).
 1.	[motorway](http://wiki.openstreetmap.org/wiki/Tag:highway%3Dmotorway) - A restricted access major divided highway, normally with 2 or more running lanes plus emergency hard shoulder. Access onto a motorway comes exclusively through ramps (controlled access).  Equivalent to the Freeway, Autobahn, etc.
 2.	[primary](http://wiki.openstreetmap.org/wiki/Tag:highway%3Dprimary) - National roads connect the most important cities/towns in a country. In most countries, these roads will usually be tarmacked and show center markings. (In South Sudan, however, primary roads might also be unpaved.)
