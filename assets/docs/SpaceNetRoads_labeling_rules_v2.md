@@ -21,12 +21,15 @@ b.	Divided highways should have two centerlines, a centerline for each direction
 
 A divided highway is a road that has a median or barrier that physically prevents turns across traffic.
 A median can be:
-●	Concrete
-●	Asphalt
-●	Green Space
-●	Dirt/unpaved road
+
+    ●	Concrete
+    ●	Asphalt
+    ●	Green space
+    ●	Dirt/unpaved road
+
 A median is not:
-●	Yellow hatched lines on pavement.
+
+    ●	Yellow hatched lines on pavement.
 
 
 ## Road Type Guidelines:
