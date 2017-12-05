@@ -14,7 +14,9 @@ Today, map features such as roads, building footprints, and points of interest a
 
 
 
-### The Data - Over 8000 Km of roads across the four SpaceNet Areas of Interest
+## The Data - Over 8000 Km of roads across the four SpaceNet Areas of Interest.
+
+See the [labeling guide and schema](/assets/docs/SpaceNetRoads_labeling_rules_v2.html) for details about the creation of the dataset
 
 
 
@@ -57,6 +59,9 @@ Unclassified|1138|95|1751|165|3149
 Cart track|2|6|19|135|162
 **Total**|**3685**|**425**|**3537.9**|**1030**|**8677**
 
+
+
+
 ## Catalog
 The data is hosted on AWS in a requester pays bucket.
 ```commandline
@@ -64,27 +69,36 @@ aws s3 ls s3://spacenet-dataset/SpaceNet_Roads_Competition/ --request-payer requ
 
 ```
 
+## Sample Data
+### 10 Samples from each AOI -  Road Network Extraction Samples
+To download processed 400mx400m tiles of AOI 2 (728.8 MB) with associated road centerlines for training do the following:
+```
+aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/SpaceNet_Roads_Sample.tar.gz --request-payer requester AOI_2_Vegas_Roads_Train.tar.gz
+```
+
+
+
 ## Training Data
 ### AOI 2 - Vegas -  Road Network Extraction Training
-To download processed 400mx400m tiles of AOI 2 (25 GB) with associated building footprints for training do the following:
+To download processed 400mx400m tiles of AOI 2 (25 GB) with associated road centerlines for training do the following:
 ```
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_2_Vegas_Roads_Train.tar.gz --request-payer requester AOI_2_Vegas_Roads_Train.tar.gz
 ```
 
 ### AOI 3 - Paris -  Road Network Extraction Training
-To download processed 400mx400m tiles of AOI 3 (5.6 GB) with associated building footprints for training do the following:
+To download processed 400mx400m tiles of AOI 3 (5.6 GB) with associated road centerlines for training do the following:
 ```
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_3_Paris_Roads_Train.tar.gz --request-payer requester AOI_3_Paris_Roads_Train.tar.gz
 ```
 
 ### AOI 4 - Shanghai -  Road Network Extraction Training
-To download processed 400mx400m tiles of AOI 4 (25 GB) with associated building footprints for training do the following:
+To download processed 400mx400m tiles of AOI 4 (25 GB) with associated road centerlines for training do the following:
 ```
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_4_Shanghai_Roads_Train.tar.gz --request-payer requester AOI_4_Shanghai_Roads_Train.tar.gz
 ```
 
 ### AOI 5 - Khartoum -  Road Network Extraction Training
-To download processed 400mx400m tiles of AOI 5 (25 GB) with associated building footprints for training do the following:
+To download processed 400mx400m tiles of AOI 5 (25 GB) with associated road centerlines for training do the following:
 ```
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Train.tar.gz --request-payer requester AOI_5_Khartoum_Roads_Train.tar.gz
 ```
@@ -114,7 +128,6 @@ To download processed 400mx400m tiles of AOI 5 (8.1 GB) for testing do:
 ```
 aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Test_Public.tar.gz --request-payer requester AOI_5_Khartoum_Roads_Test_Public.tar.gz
 ```
-
 
 
 # The Metric
