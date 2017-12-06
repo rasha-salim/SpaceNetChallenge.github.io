@@ -5,9 +5,13 @@ sidebar: schema
 ---
 # The SpaceNet Roads Dataset labeling guidelines:
 
-1.	Road vectors must be drawn as a center line within 2m (7 pixels) of observed road
+
+1.	Road vectors must be drawn as a center line within 2m (7 pixels) of observed road:
+
     a.	The centerline of a road is defined as the centerline of the roadway. If a road has an even number of lanes, the centerline shall be drawn on the line separating lanes.  If the road has an odd number of lanes then the centerline should be drawn down the center of the middle lane.
+
     b.	Divided highways should have two centerlines, a centerline for each direction of traffic.  See below for the definition of a divided highway.
+
 2.	Road vectors must be represented as a connected network to support routing.  Roads that intersect each other should share points as an intersection as instructed through OSM.  Roads that cross each other that are not connected (such as an overpass) should not share a point of connection.
 3.	Roads must not bisect building footprints.
 4.	Sections of a road that are a bridge or overpass must be labeled as a bridge via a Boolean flag.
