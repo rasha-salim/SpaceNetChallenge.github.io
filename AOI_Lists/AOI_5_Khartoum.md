@@ -3,7 +3,11 @@ layout: aoi
 title: AOI 5 Khartoum
 sidebar: aoi
 ---
-## SpaceNet AOI 5 Khartoum Area covered
+## SpaceNet AOI 5 - Khartoum
+Catalog ID: 104001000A6A1E00
+
+Image Time: 2015-04-13T08:18:08Z
+
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_5_Khartoum/AOI_5_Khartoum_SrcTindexex.geojson"></script>
 
 

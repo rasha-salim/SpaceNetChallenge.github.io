@@ -3,7 +3,11 @@ layout: aoi
 title: AOI 3 Paris
 sidebar: aoi
 ---
-## SpaceNet AOI 3 Area covered
+## SpaceNet AOI 3 - Paris
+Catalog ID: 1040010018805C00
+
+Image Time: 2016-02-29T11:19:13Z
+
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_3_Paris/AOI_3_Paris_SrcTindexex.geojson"></script>
 
 

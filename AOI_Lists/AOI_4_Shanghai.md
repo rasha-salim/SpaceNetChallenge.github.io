@@ -3,7 +3,11 @@ layout: aoi
 title: AOI 4 Shanghai
 sidebar: aoi
 ---
-## SpaceNet AOI 4 Area covered
+## SpaceNet AOI 4 - Shanghai 
+Catalog ID: 104001000C924900
+
+Image Time: 2015-06-06T02:35:27Z
+
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_4_Shanghai/AOI_4_Shanghai_SrcTindexex.geojson"></script>
 
 

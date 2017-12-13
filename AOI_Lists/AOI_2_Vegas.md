@@ -3,8 +3,13 @@ layout: aoi
 title: AOI 2 Las Vegas
 sidebar: aoi
 ---
-## SpaceNet AOI 2 Details
+## SpaceNet AOI 2 - Las Vegas 
+Catalog ID: 10400100137F4900
+
+Image Time: 2015-10-22T18:36:56Z
+
 <script src="https://embed.github.com/view/geojson/SpaceNetChallenge/utilities/spacenetV3/spacenetutilities/datasets/AOI_2_Vegas/AOI_2_Vegas_SrcTindexex.geojson"></script>
+
 
 
 ## SpaceNet Simple Storage Service (S3) Directory Structure (AOI 2)
