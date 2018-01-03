@@ -7,3 +7,14 @@ github_username: dlindenbaum
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+---
+title: The SpaceNet Challenge hosted on AWS
+description: Accelerating research and innovation in the developement of machine learning algorithms from remote sensing data including satellite imagery
+SpaceNet is a partnership between CosmiQ Works, Radiant Solutions, NVIDIA hosted on AWS
+---
+

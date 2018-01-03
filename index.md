@@ -1,7 +1,7 @@
 ---
 layout: toplevel
-title: ''
-sidebar: toplevel
+title: 'SpaceNet'
+sidebar: default
 ---
 ## Hosting
 [SpaceNet](https://aws.amazon.com/public-datasets/spacenet/) is a corpus of commercial satellite imagery and labeled
