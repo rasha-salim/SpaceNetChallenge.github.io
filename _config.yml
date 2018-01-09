@@ -20,3 +20,8 @@ url: https://spacenetchallenge.github.io/
 logo: /assets/images/SpaceNet-320x320-300x300.png
 ---
 
+analytics:
+  		provider: "google-universal"
+  	google:
+ 	tracking_id: "UA-112217349-1"
+
