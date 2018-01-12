@@ -73,7 +73,7 @@ aws s3 ls s3://spacenet-dataset/SpaceNet_Roads_Competition/ --request-payer requ
 ### 10 Samples from each AOI -  Road Network Extraction Samples
 To download processed 400mx400m tiles of AOI 2 (728.8 MB) with associated road centerlines for training do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/SpaceNet_Roads_Sample.tar.gz --request-payer requester AOI_2_Vegas_Roads_Train.tar.gz
+aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/SpaceNet_Roads_Sample.tar.gz --request-payer requester SpaceNet_Roads_Sample.tar.gz
 ```
 
 
