@@ -15,13 +15,14 @@ sidebar: toplevel
 5. [Area of Interest 5 (AOI 5) - Location: Khartoum.](/AOI_Lists/AOI_5_Khartoum.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
 
 ## The SpaceNet Competition Datasets
-1. [SpaceNet Buildings Dataset v1](/datasets/spacenetBuildings-V1summary.md)
-2. [SpaceNet Buildings Dataset v2](/datasets/spacenetBuildings-V2summary.md)
-3. [SpaceNet Roads Dataset](/datasets/spacenetRoads-summary.md)
+1. [SpaceNet Buildings Dataset v1](/datasets/spacenetBuildings-V1summary.html)
+2. [SpaceNet Buildings Dataset v2](/datasets/spacenetBuildings-V2summary.html)
+3. [SpaceNet Roads Dataset](/datasets/spacenetRoads-summary.html)
 
 ## Remote Sensing Competition Datasets
-4. [IARPA Multi-View Stereo 3D Mapping Challenge](/datasets/mvs_summary.md)
-5. [The IARPA Functional Map of the World (fMoW) Challenge](/datasets/fmow_summary.md)
+4. [IARPA Multi-View Stereo 3D Mapping Challenge](/datasets/mvs_summary.html)
+5. [The IARPA Functional Map of the World (fMoW) Challenge](/datasets/fmow_summary.html)
+
 
 <style> table{
     border-collapse: collapse;
