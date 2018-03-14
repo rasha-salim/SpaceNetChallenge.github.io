@@ -29,11 +29,12 @@ For more information about the MVS benchmark please visit the [JHUAPL competitio
 * M. Bosch, Z. Kurtz, S. Hagstrom, and M. Brown. “A multiple view stereo benchmark for satellite imagery”. In Proceedings of the Applied Imagery Pattern Recognition Workshop (AIPR), Washington, DC, USA, 2016
 * Commercial satellite imagery in the MVS benchmark data set was provided courtesy of DigitalGlobe.
 * Dataset was created for the IAPRA Multi-View Stereo 3D Mapping Challenge
-* Data hosted through the [The SpaceNet Data Repository](https://spacenetchallenge.github.io/)
+* SpaceNet on Amazon Web Services (AWS). “Datasets.” The SpaceNet Catalog.  Last modified January 4, 2018.
+Accessed on [Insert Date]. https://spacenetchallenge.github.io/datasets/datasetHomePage.html.
 
 ## Catalog
 ```commandline
-aws s3 ls s3://spacenet-dataset/mvs_dataset --request-payer requester
+aws s3 ls s3://spacenet-dataset/mvs_dataset 
 
 ```
 The catalog contains the following packages:

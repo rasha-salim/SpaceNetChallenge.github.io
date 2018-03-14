@@ -70,14 +70,14 @@ aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/
 
 
 # SpaceNet Buildings Dataset
-### AOI 3 - Paris - Training
-To download processed 200mx200m tiles of AOI 2 (5.3 GB) with associated building footprints do the following:
+### AOI 3 - Paris - Training - Building Extraction Training
+To download processed 200mx200m tiles of AOI 3 (5.3 GB) with associated building footprints do the following:
 ```
 aws s3api get-object --bucket spacenet-dataset --key AOI_3_Paris/AOI_3_Paris_Train.tar.gz --request-payer requester AOI_3_Paris_Train.tar.gz
 ```
 
-### AOI 3 - Paris - Testing
-To download processed 200mx200m tiles of AOI 2 (1.8 GB) for testing do:
+### AOI 3 - Paris - Testing - Building Extraction Testing
+To download processed 200mx200m tiles of AOI 3 (1.8 GB) for testing do:
 ```
 aws s3api get-object --bucket spacenet-dataset --key AOI_3_Paris/AOI_3_Paris_Test_public.tar.gz --request-payer requester AOI_3_Paris_Test_public.tar.gz
 ```

@@ -8,10 +8,12 @@
 
   <body>
     {% include header.html content="toplevel" %}
-    {% include secondHeader.html content="aoi" %}
+
 
     <div class="page-content">
-      <div class="wrapper">
+          {% include sidebar2.html content="aoi" %}
+
+      <div class="wrapper2">
         {{ content }}
       </div>
     </div>

@@ -146,3 +146,6 @@ Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
 or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)
 
 For previous SpaceNet Competitions see the [Round 2 Site](/Competitions/Competition2.html)
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The SpaceNet Dataset</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://spacenetchallenge.github.io/" property="cc:attributionName" rel="cc:attributionURL">SpaceNet Partners</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
