@@ -68,12 +68,11 @@ Published results:
 
 1.	R. Minetto, M.P. Segundo, and S. Sarkar. Hydra: an Ensemble of Convolutional Neural Networks for Geospatial Land Classification. In arXiv preprint arXiv:1802.03518, 2018.
 2.	G. Christie, N. Fendley, J. Wilson, and R. Mukherjee. Functional Map of the World. In CVPR, 2018. In arXiv preprint arXiv: 1711.07846 2017
-3.	G. Chern, M. Pritt. Satellite Image Classification with Deep Learning, 46th Annual IEEE Applied Imagery Pattern Recognition Workshop, Washington, D.C.
+3.	M. Pritt, G. Chern. Satellite Image Classification with Deep Learning, 46th Annual IEEE Applied Imagery Pattern Recognition Workshop, Washington, D.C.
  
 
 ## Dependencies
 The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be installed with an active AWS account. Configure the AWS CLI using 'aws configure'
 
 ## License
-
-
+[fMoW License](https://github.com/fMoW/dataset/blob/master/LICENSE)
