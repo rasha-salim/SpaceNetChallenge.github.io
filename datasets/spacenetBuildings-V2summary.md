@@ -96,31 +96,31 @@ aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Tra
 ## Test Data
 ## Test Data (19 GB)
 ```bash
-aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Train/ . --recursive 
+aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Test/ . --recursive 
 ```
 
 ### AOI 2 - Vegas - Building Extraction Testing
 To download processed 200mx200m tiles of AOI 2 (7.9 GB) for testing do:
 ```bash
-aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Train/AOI_2_Vegas_Test_public.tar.gz .
+aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Test/AOI_2_Vegas_Test_public.tar.gz .
 ```
 
 ### AOI 3 - Paris - Building Extraction Testing
 To download processed 200mx200m tiles of AOI 3 (1.8 GB) for testing do:
 ```bash
-aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Train/AOI_3_Paris_Test_public.tar.gz .
+aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Test/AOI_3_Paris_Test_public.tar.gz .
 ```
 
 ### AOI 4 - Shanghai - Building Extraction Testing
 To download processed 200mx200m tiles of AOI 4 (7.7 GB) for testing do:
 ```bash
-aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Train/AOI_4_Shanghai_Test_public.tar.gz .
+aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Test/AOI_4_Shanghai_Test_public.tar.gz .
 ```
 
 ### AOI 5 - Khartoum - Building Extraction Testing
 To download processed 200mx200m tiles of AOI 2 (1.6 GB) for testing do:
 ```bash
-aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Train/AOI_5_Khartoum_Test_public.tar.gz .
+aws s3 cp s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/spacenetV2_Test/AOI_5_Khartoum_Test_public.tar.gz .
 ```
 
 # The Metric
