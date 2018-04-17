@@ -57,6 +57,8 @@ aws s3 ls s3://spacenet-dataset/
 ```
 
 # License:
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The SpaceNet Dataset</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://spacenetchallenge.github.io/" property="cc:attributionName" rel="cc:attributionURL">SpaceNet Partners</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
+Each dataset has a different open data license.  
+Please visit each Dataset page to view it's license and citation terms.
+If data from the SpaceNet repository is used please also cite the SpaceNet Dataset using the [preferred citation](/licenses/licenseHomePage.html).
+ 
 
