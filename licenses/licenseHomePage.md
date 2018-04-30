@@ -10,7 +10,7 @@ sidebar: toplevel
 If you are using data from SpaceNet in an paper, please use the following citation.
 
 ```
-SpaceNet on Amazon Web Services (AWS). “Datasets.” The SpaceNet Catalog.  Last modified January 4, 2018.
+SpaceNet on Amazon Web Services (AWS). “Datasets.” The SpaceNet Catalog.  Last modified April 30, 2018.
 Accessed on [Insert Date]. https://spacenetchallenge.github.io/datasets/datasetHomePage.html.
 ```
 

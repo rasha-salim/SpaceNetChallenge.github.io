@@ -87,4 +87,5 @@ The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be inst
 For questions and comments about the dataset or the open source software, please contact pubgeo(at)jhuapl(dot)edu. 
 
 ## License
-[Urban 3D Challenge Dataset License](https://github.com/SpaceNetChallenge/SpaceNetChallenge.github.io/tree/master/licenses/Urban3DChallenge_license.md)
+[Urban 3D Challenge Dataset License](/licenses/Urban3DChallenge_license.html)
+
