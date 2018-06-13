@@ -54,6 +54,8 @@ aws s3 ls s3://spacenet-dataset/SpaceNet_Buildings_Dataset_Round2/
 In SpaceNet Challenge, the metric for ranking entries is based on the Jaccard Index, also called the Intersection-over-Union (IoU).
 For more information read the full article on [The DownlinQ](https://medium.com/the-downlinq/the-spacenet-metric-612183cc2ddb).
 
+# Labeling Guidelines
+For more information about the labeling guidelines, please view the [SpaceNet Buildings Dataset Labeling Guide](/assets/docs/SpaceNetBuildings_labeling_rules_v1.html)
 
 ## Sample Data
 ### 10 Samples from each AOI -  Road Network Extraction Samples
