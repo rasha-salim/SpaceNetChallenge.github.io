@@ -63,9 +63,9 @@ Cart track|2|6|19|135|162
 
 
 ## Catalog
-The data is hosted on AWS in a requester pays bucket.
+The data is hosted on AWS as Public Dataset.  An AWS account is required.   
 ```commandline
-aws s3 ls s3://spacenet-dataset/SpaceNet_Roads_Competition/ --request-payer requester
+aws s3 ls s3://spacenet-dataset/SpaceNet_Roads_Competition/
 
 ```
 
