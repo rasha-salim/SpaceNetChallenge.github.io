@@ -68,7 +68,7 @@ The F1 score is the harmonic mean of precision and recall, combining the accurac
 
 For example, suppose there are N polygon labels for building footprints that are considered ground truth and suppose there are M proposed polygons by an entry in the SpaceNet competition.  Let tp denote the number of true positives of the M proposed polygons.  The F1 score is calculated as follows:
 
-![alt text](https://github.com/SpaceNetChallenge/utilities/raws/master/content/F1.jpg "IoU")
+![alt text](https://github.com/SpaceNetChallenge/utilities/raw/master/content/F1.jpg "IoU")
 
 The F1 score is between 0 and 1, where larger numbers are better scores.
 
