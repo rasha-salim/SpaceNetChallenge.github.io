@@ -60,7 +60,7 @@ The evaluation metric for this competition is an F1 score with the matching algo
 There is at most one “true positive” per labeled polygon.
 The measure of proximity between labeled polygons and proposed polygons is the Jaccard similarity or the “Intersection over Union (IoU)”, defined as:
 
-![alt text](https://github.com/SpaceNetChallenge/utilities/blob/master/content/IoU.jpg "IoU")
+![alt text](https://github.com/SpaceNetChallenge/utilities/raw/master/content/IoU.jpg "IoU")
 
 The value of IoU is between 0 and 1, where closer polygons have higher IoU values.
 
@@ -68,7 +68,7 @@ The F1 score is the harmonic mean of precision and recall, combining the accurac
 
 For example, suppose there are N polygon labels for building footprints that are considered ground truth and suppose there are M proposed polygons by an entry in the SpaceNet competition.  Let tp denote the number of true positives of the M proposed polygons.  The F1 score is calculated as follows:
 
-![alt text](https://github.com/SpaceNetChallenge/utilities/blob/master/content/F1.jpg "IoU")
+![alt text](https://github.com/SpaceNetChallenge/utilities/raws/master/content/F1.jpg "IoU")
 
 The F1 score is between 0 and 1, where larger numbers are better scores.
 
