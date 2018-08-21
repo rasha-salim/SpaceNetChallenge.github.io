@@ -1,7 +1,7 @@
 ---
 layout: licenses
-title: Citing SpaceNet
-sidebar: toplevel
+title: Urban 3D license
+sidebar: licenses
 ---
 
 
