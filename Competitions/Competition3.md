@@ -46,8 +46,7 @@ td{
 | [AOI_5_Khartoum](/AOI_Lists/AOI_5_Khartoum.html) | 765                     |1030 km                 |
 
 
-### For more details on the dataset visit the [SpaceNet Roads Dataset](/datasets/spacenetRoads_summary.html) website
-
+### For more details on the dataset visit the [SpaceNet Roads Dataset](/datasets/spacenetRoads-summary.html) website
 
 # Competition Updates:
 
