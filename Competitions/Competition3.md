@@ -19,6 +19,51 @@ In the SpaceNet Roads Challenge, the metric for ranking entries is the APLS metr
 The current version of the metric is open sourced on github:  [Average Path Length Similarity (APLS) metric](https://github.com/CosmiQ/apls)
 For more information read the [SpaceNet Road Detection and Routing Challenge Series, Part 1](https://medium.com/the-downlinq/spacenet-road-detection-and-routing-challenge-part-i-d4f59d55bfce), and [Part 2](https://medium.com/the-downlinq/spacenet-road-detection-and-routing-challenge-part-ii-apls-implementation-92acd86f4094),  written by [Adam Van Etten](https://medium.com/@avanetten) at [The DownlinQ](https://medium.com/the-downlinq).
 
+# Winning solutions:
+The top five solutions have been open sourced at the [SpaceNet Challenge Github Repository](https://github.com/SpaceNetChallenge/RoadDetector) 
+
+<style> table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #000000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}
+</style>
+
+**Place**|**Entrant**|**Country**|**Average Score**|**Las Vegas**|**Paris**|**Shanghai**|**Khartoum**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+1|albu|Russia|0.6663|0.7977|0.604|0.6543|0.6093
+2|cannab|Russia|0.6661|0.7804|0.6446|0.6398|0.5996
+2|pfr|France|0.666|0.8009|0.6008|0.6646|0.5975
+4|selim\_sef|Germany|0.6567|0.7884|0.5991|0.6472|0.5922
+5|fbastani|America|0.6284|0.771|0.5474|0.6326|0.5628
+6|ipraznik|Germany|0.6215|0.7578|0.5668|0.6078|0.5537
+7|tcghanareddy|India|0.6182|0.7591|0.571|0.6014|0.5415
+8|hasan.asyari|Norway|0.6097|0.7407|0.5557|0.5952|0.5472
+9|aveysov|Russia|0.5943|0.7426|0.5805|0.5751|0.4789
+
+
+Top 5 Solutions:
+1. [Albu](https://github.com/SpaceNetChallenge/RoadDetector/blob/tree/albu-solution/)
+
+2. (tie)[cannab](https://github.com/SpaceNetChallenge/RoadDetector/blob/tree/cannab-solution/)
+
+3. (Tie)[pfr](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/tree/master/pfr-solution)
+
+4.  [selim_sef](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/tree/master/selim_sef-solution)
+
+5.  [fbastani](https://github.com/SpaceNetChallenge/BuildingDetectors_Round2/tree/master/fabastani-solution)
+
+
+[Click Here For the full leaderboard and submission history](https://community.topcoder.com/longcontest/stats/?module=ViewOverview&rd=16892)
+
 
 # The Data - Over 8000 Km of roads across the four SpaceNet Areas of Interest
 <style> table{
@@ -49,12 +94,11 @@ td{
 ### For more details on the dataset visit the [SpaceNet Roads Dataset](/datasets/spacenetRoads-summary.html) website
 
 # Competition Updates:
-
-Pre-Register for the competition now. [Pre-Register Here](http://crowdsourcing.topcoder.com/spacenet)
-
+The Roads competition is now over and the top 5 Algorithms have been open sourced.  To see the code visit the [SpaceNet Road Network Extraction and Routing Challenge Github repository](https://github.com/SpaceNetChallenge/RoadDetectors)
+ 
 For competition email updates, [Sign up here](http://explore.digitalglobe.com/spacenet)
 
 Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
 or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)
 
-For previous SpaceNet Competitions see the [Round 2 Site](/Competitions/Competition2.html)
+For general details about SpaceNet Competitions see the [SpaceNet Competition Summary](/Competitions/competitionsSummary.html)

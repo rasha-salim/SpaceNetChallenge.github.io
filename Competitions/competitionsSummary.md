@@ -7,7 +7,7 @@ categories:
  - toplevel
 ---
 
-# [Curent Challenge: Road Network Extraction](/Competitions/Competition3.html)
+# [Most recent Challenge: Road Network Extraction](/Competitions/Competition3.html)
 
 The commercialization of the geospatial industry has led to an explosive amount of data being collected to characterize our changing planet. One area for innovation is the application of computer vision and deep learning to extract information from satellite imagery at scale. CosmiQ Works, Radiant Solutions and NVIDIA have partnered to release the SpaceNet data set to the public to enable developers and data scientists to work with this data.
 
