@@ -99,4 +99,4 @@ td{
 | [AOI_1_Rio](/AOI_Lists/AOI_1_Rio.html)      | 2,544                   | 4,082,529                  |
 
 
-For Round 2 results please see the [Round 2 Site](/Competitions/Competition2.html)
+For Round 2 results please see the [Round 2 Site](/Challenges/Competition2.html)

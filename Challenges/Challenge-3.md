@@ -101,4 +101,4 @@ For competition email updates, [Sign up here](http://explore.digitalglobe.com/sp
 Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
 or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)
 
-For general details about SpaceNet Competitions see the [SpaceNet Competition Summary](/Competitions/competitionsSummary.html)
+For general details about SpaceNet Competitions see the [SpaceNet Competition Summary](/Challenges/competitionsSummary.html)

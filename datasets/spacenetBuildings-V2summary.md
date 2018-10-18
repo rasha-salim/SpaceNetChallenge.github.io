@@ -134,9 +134,9 @@ For more information read the full article written by Patrick Hagerty at the [Do
 
 # Competition Updates:
 
-For more details about the [SpaceNet Building Extraction Challenge: Round 1](/Competitions/Competition1.html)  visit it's [website](/Competitions/Competition1.html)  
+For more details about the [SpaceNet Building Extraction Challenge: Round 1](/Challenges/Competition1.html)  visit it's [website](/Challenges/Competition1.html)  
 
-For more details about the [SpaceNet Building Extraction Challenge: Round 2](/Competitions/Competition2.html)  visit it's [website](/Competitions/Competition2.html)  
+For more details about the [SpaceNet Building Extraction Challenge: Round 2](/Challenges/Competition2.html)  visit it's [website](/Challenges/Competition2.html)  
 
 Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
 or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)

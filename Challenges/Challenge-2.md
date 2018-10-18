@@ -133,4 +133,4 @@ td{
 
 
 
-For Round 2 results please see the [Round 1 Site](/Competitions/Competition1.html)
+For Round 2 results please see the [Round 1 Site](/Challenges/Challenge_2.html)

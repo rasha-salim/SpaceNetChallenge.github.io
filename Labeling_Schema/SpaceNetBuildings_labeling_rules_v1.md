@@ -18,3 +18,6 @@ sidebar: schema
 #### Attributes:
 1)	“geometry”: Polygon
 
+## Additonal Attributes (Off-Nadir)
+2) "Name": "Occluded" or "".  Occluded is a tag added for situations where the building footprints is occluded by trees.
+

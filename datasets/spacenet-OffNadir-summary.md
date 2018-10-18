@@ -7,35 +7,73 @@ sidebar: datasets
 
 
 ## The Problem
-The commercialization of the geospatial industry has led to an explosive amount of data being collected to characterize our changing planet. One area for innovation is the application of computer vision and deep learning to extract information from satellite imagery at scale. CosmiQ Works, Radiant Solutions and NVIDIA have partnered to release the SpaceNet data set to the public to enable developers and data scientists to work with this data.
-
-Today, map features such as roads, building footprints, and points of interest are primarily created through manual techniques. We believe that advancing automated feature extraction techniques will serve important downstream uses of map data including humanitarian and disaster response, as observed by the need to map road networks during the response to recent flooding in Bangladesh and Hurricane Maria in Puerto Rico. Furthermore, we think that solving this challenge is an important stepping stone to unleashing the power of advanced computer vision algorithms applied to a variety of remote sensing data applications in both the public and private sector.
-
-In a certain scenarios, the most recent image after an event occurs is Off-Nadir, i.e. it is from an oblique angle.  This dataset allow's researcher's to explore how this type of imagery affect's automated feature extraction techniques
-
-
+Can you help us automate mapping from off-nadir imagery? In this challenge, competitors are tasked with finding automated methods for extracting map-ready building footprints from high-resolution satellite imagery from high off-nadir imagery. In many disaster scenarios the first post-event imagery is from a more off-nadir image than is used in standard mapping use cases.  The ability to use higher off-nadir imagery will allow for more flexibility in acquiring and using satellite imagery after a disaster.  Moving towards more accurate fully automated extraction of building footprints  will help bring innovation to computer vision methodologies applied to high-resolution satellite imagery, and ultimately help create better maps where they are needed most.
+ 
+Your task will be to extract building footprints from increasingly off-nadir satellite images. The polygon’s you create will be compared to ground truth, and the quality of the solutions will be measured using the SpaceNet metric.   
 
 
 ## The Data - Over 120,000 Building footprints over 665 sqkm of Atlanta, GA with 27 associated WV-2 images.
+This dataset contains 27 8-Band WorldView-2 images taken over Atlanta, GA on December 22nd, 2009.  They range in off-nadir angle from 7 degrees to 54 degrees.  
 
-See the [labeling guide and schema](/assets/docs/SpaceNetOff-Nadir_labeling_rules_v2.html) for details about the creation of the dataset
+For the competition, the 27 images are broken into 3 segments based on their off-nadir angle:
+* Nadir: 0-25 degrees 
+* Off-nadir: 26 degrees - 40 degrees
+* Very Off-nadir 40-55 degrees
+
+The entire set of images was then tiled into 450m x 450m tiles. 
 
 
 
-<style> table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #000000;
-}
+See the [labeling guide and schema](/Labeling_Schema/SpaceNetBuildings_labeling_rules_v1.html) for details about the creation of the dataset
 
-th{
-    border:2px solid #000000;
-}
 
-td{
-    border:1px solid #000000;
-}
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
 </style>
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th></th><th>Catalog ID</th><th>Pan Resolution</th><th>Off Nadir Angle</th><th>Target Azimuth</th><th>Catgory</th></tr></thead><tbody>
+ <tr><td>1</td><td>1030010003D22F00</td><td>0.48</td><td>7.8</td><td>118.4</td><td>Nadir</td></tr>
+ <tr><td>2</td><td>10300100023BC100</td><td>0.49</td><td>8.3</td><td>78.4</td><td>Nadir</td></tr>
+ <tr><td>3</td><td>1030010003993</td><td>0.49</td><td>10.5</td><td>148.6</td><td>Nadir</td></tr>
+ <tr><td>4</td><td>1030010003CAF100</td><td>0.48</td><td>10.6</td><td>57.6</td><td>Nadir</td></tr>
+ <tr><td>5</td><td>1030010002B7D800</td><td>0.49</td><td>13.9</td><td>162</td><td>Nadir</td></tr>
+ <tr><td>6</td><td>10300100039AB000</td><td>0.49</td><td>14.8</td><td>43</td><td>Nadir</td></tr>
+ <tr><td>7</td><td>1030010002649200</td><td>0.52</td><td>16.9</td><td>168.7</td><td>Nadir</td></tr>
+ <tr><td>8</td><td>1030010003C92000</td><td>0.52</td><td>19.3</td><td>35.1</td><td>Nadir</td></tr>
+ <tr><td>9</td><td>1030010003127500</td><td>0.54</td><td>21.3</td><td>174.7</td><td>Nadir</td></tr>
+ <tr><td>10</td><td>103001000352C200</td><td>0.54</td><td>23.5</td><td>30.7</td><td>Nadir</td></tr>
+ <tr><td>11</td><td>103001000307D800</td><td>0.57</td><td>25.4</td><td>178.4</td><td>Nadir</td></tr>
+ <tr><td>12</td><td>1030010003472200</td><td>0.58</td><td>27.4</td><td>27.7</td><td>Off-Nadir</td></tr>
+ <tr><td>13</td><td>1030010003315300</td><td>0.61</td><td>29.1</td><td>181</td><td>Off-Nadir</td></tr>
+ <tr><td>14</td><td>10300100036D5200</td><td>0.62</td><td>31</td><td>25.5</td><td>Off-Nadir</td></tr>
+ <tr><td>15</td><td>103001000392F600</td><td>0.65</td><td>32.5</td><td>182.8</td><td>Off-Nadir</td></tr>
+ <tr><td>16</td><td>1030010003697400</td><td>0.68</td><td>34</td><td>23.8</td><td>Off-Nadir</td></tr>
+ <tr><td>17</td><td>1030010003895500</td><td>0.74</td><td>37</td><td>22.6</td><td>Off-Nadir</td></tr>
+ <tr><td>18</td><td>1030010003832800</td><td>0.8</td><td>39.6</td><td>21.5</td><td>Off-Nadir</td></tr>
+ <tr><td>19</td><td>10300100035D1B00</td><td>0.87</td><td>42</td><td>20.7</td><td>Very Off-Nadir</td></tr>
+ <tr><td>20</td><td>1030010003CCD700</td><td>0.95</td><td>44.2</td><td>20</td><td>Very Off-Nadir</td></tr>
+ <tr><td>21</td><td>1030010003713C00</td><td>1.03</td><td>46.1</td><td>19.5</td><td>Very Off-Nadir</td></tr>
+ <tr><td>22</td><td>10300100033C5200</td><td>1.13</td><td>47.8</td><td>19</td><td>Very Off-Nadir</td></tr>
+ <tr><td>23</td><td>1030010003492700</td><td>1.23</td><td>49.3</td><td>18.5</td><td>Very Off-Nadir</td></tr>
+ <tr><td>24</td><td>10300100039E6200</td><td>1.36</td><td>50.9</td><td>18</td><td>Very Off-Nadir</td></tr>
+ <tr><td>25</td><td>1030010003BDDC00</td><td>1.48</td><td>52.2</td><td>17.7</td><td>Very Off-Nadir</td></tr>
+ <tr><td>26</td><td>1030010003CD4300</td><td>1.63</td><td>53.4</td><td>17.4</td><td>Very Off-Nadir</td></tr>
+ <tr><td>27</td><td>1030010003193D00</td><td>1.67</td><td>54</td><td>17.4</td><td>Very Off-Nadir</td></tr>
+</tbody></table>
 
 
 ## Catalog
@@ -46,39 +84,41 @@ aws s3 ls s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/
 ```
 
 ## Sample Data
-### 10 Samples from each Image -  Off-Nadir Imagery Samples
-To download processed 450mx450m tiles of AOI 2 (728.8 MB) with associated building footprints:
+### 2 Samples from each Off-Nadir Image - Off-Nadir Imagery Samples
+To download processed 450mx450m tiles of AOI_6_Atlanta (728.8 MB) with associated building footprints:
 ```
-aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/SpaceNet_Roads_Sample.tar.gz .
+aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet_Off-Nadir_Competition_Sample.tar.gz .
 ```
-
 
 
 ## Training Data
-### AOI 6 Atlanta -  Building Footprint Extraction Training
-To download processed 450mx450m tiles of AOI 6 (202 GB):
+### SpaceNet Off-Nadir Building Footprint Extraction Training Data
+To download processed 450mx450m tiles of AOI 6 Atlanta (202 GB):
 ```
-aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet_v4_Train.tar.gz .
+aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet-Off-Nadir_Competition_Train.tar.gz .
 ```
 
 ## Test Data
-### AOI 2 - Vegas - Road Network Extraction  Testing
-To download processed 400mx400m tiles of AOI 2 (8.1 GB) for testing do:
+### AOI 6 Atlanta -  Building Footprint Extraction Testing Data
+To download processed 450mx450m tiles of AOI 6 Atlanta (5.8 GB):
 ```
-aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet_v4_Test.tar.gz .
+aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet-Off-Nadir_Competition_Train_Public.tar.gz .
 ```
 
 # The Metric
-In the SpaceNet Roads Challenge, the metric for ranking entries is the [SpaceNet Metric](https://medium.com/the-downlinq/the-spacenet-metric-612183cc2ddb).  
-This metric is an F1-Score based on  the intersection over union of two building footprints with a threshold of 0.5
+In the SpaceNet Off-Nadir Building Extraction Challenge, the metric for ranking entries is the [SpaceNet Metric](https://medium.com/the-downlinq/the-spacenet-metric-612183cc2ddb).  
+This metric is an F1-Score based on the intersection over union of two building footprints with a threshold of 0.5
 
+F1-Score is calculated by taking the total True Positives, False Positives, and False Negatives for each nadir segement and then averaging the F1-Score for each segement.  
 
-For more information read the full article written by Patrick Hagerty at the [DownlinQ](https://medium.com/the-downlinq/the-spacenet-metric-612183cc2ddb).  
+F1-Score Total = mean(F1-Score-Nadir, F1-Score-Off-Nadir, F1-Score-Very-Off-Nadir)
+
 
 # Competition Updates:
 
+For information about the currently running challenge visit the [competition site on topcoder.](https://topcoder.com/spacenet)
 
-For more details about previous SpaceNet Building Challenges [SpaceNet Building Extraction Challenge: Round 2](/Competitions/Competition2.html)  visit it's [website](/Competitions/Competition2.html)  
+For more details about previous SpaceNet Building Challenges [SpaceNet Building Extraction Challenge: Round 2](/Challenges/Competition2.html)  visit it's [website](/Challenges/Competition2.html)  
 
 Check out CosmiQ Work's Blog, [The DownLinQ](https://medium.com/the-downlinq)
 or follow the [SpaceNetUtilities Github Page](https://github.com/SpaceNetChallenge/utilities)
