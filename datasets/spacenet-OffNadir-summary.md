@@ -92,17 +92,31 @@ aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet_Off-Nadi
 
 
 ## Training Data
-### SpaceNet Off-Nadir Building Footprint Extraction Training Data
-To download processed 450mx450m tiles of AOI 6 Atlanta (202 GB):
+
+## SpaceNet Off-Nadir Training Base Directory:
+
+```bash
+aws s3 ls s3://spacenet-dataset/SpaceNet_Off-Nadir_Dataset/SpaceNet-Off-Nadir_Train/
 ```
-aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet-Off-Nadir_Competition_Train.tar.gz .
+### SpaceNet Off-Nadir Building Footprint Extraction Training Data Labels (15 mb)
+```
+aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Dataset/SpaceNet-Off-Nadir_Train/geojson.tar.gz .
+```
+
+### SpaceNet Off-Nadir Building Footprint Extraction Training Data Imagery (186 GB)
+To download processed 450mx450m tiles of AOI 6 Atlanta.  
+
+Each of the 27 Collects forms a separate .tar.gz labeled "Atlanta_nadir{nadir-angle}_catid\_{catid}.tar.gz".  Each .tar.gz is ~7 GB
+
+```bash
+aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Dataset/SpaceNet-Off-Nadir_Train/ . --exclude "*geojson.tar.gz" --recursive
 ```
 
 ## Test Data
 ### AOI 6 Atlanta -  Building Footprint Extraction Testing Data
 To download processed 450mx450m tiles of AOI 6 Atlanta (5.8 GB):
 ```
-aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet-Off-Nadir_Competition_Train_Public.tar.gz .
+aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet-Off-Nadir_Test_Public.tar.gz .
 ```
 
 # The Metric
