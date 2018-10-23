@@ -11,6 +11,8 @@ Can you help us automate mapping from off-nadir imagery? In this challenge, comp
  
 Your task will be to extract building footprints from increasingly off-nadir satellite images. The polygon’s you create will be compared to ground truth, and the quality of the solutions will be measured using the SpaceNet metric.   
 
+For more details, register visit the [Challenge page to register and compete](http://community.topcoder.com/longcontest/?module=ViewProblemStatement&rd=17313&pm=15148).
+
 
 ## Prize List
 
