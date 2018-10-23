@@ -6,7 +6,7 @@ sidebar: default
 
 
 ## The SpaceNet Off-Nadir Building Detection Challenge has launched
-The SpaceNet team has launched the SpaceNet Off-Nadir Building Detection Challenge on TopCoder.  The Challenge will run through December 21, 2018 and offer's $50,000 in total prizes.  Read more about the dataset and challenge on the [The DownlinQ](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3) and visit the [Challenge page to register and compete](http://community.topcoder.com/longcontest/?module=ViewProblemStatement&rd=17313&pm=15148).
+The SpaceNet team has launched the SpaceNet Off-Nadir Building Detection Challenge on TopCoder.  The Challenge will run through December 21, 2018 and offer's $50,000 in total prizes.  Read more about the dataset and challenge on the **[The DownlinQ](https://medium.com/the-downlinq/introducing-the-spacenet-off-nadir-imagery-and-buildings-dataset-e4a3c1cb4ce3)** and visit the **[Challenge page to register and compete](http://community.topcoder.com/longcontest/?module=ViewProblemStatement&rd=17313&pm=15148)**.
 
 This challenge focuses on the use of Off-Nadir imagery for building footprint extraction.  The dataset includes 27 WorldView 2 Satellite images from 7 degrees to 54 degrees off-nadir all captured within 5 minutes of each other. The dataset covers over 665 square kilometers of downtown Atlanta and ~126,747 buildings footprints labeled from a nadir image. It is now available for download — for instructions, see the [SpaceNet Off-Nadir Dataset page](/datasets/spacenet-OffNadir-summary.html)
 
