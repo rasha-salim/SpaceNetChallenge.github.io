@@ -31,6 +31,8 @@ Check out our SpaceNet Utilities for some helpful tools for using geospatial dat
 3. [Area of Interest 3 (AOI 3) - Location: Paris.](/AOI_Lists/AOI_3_Paris.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
 4. [Area of Interest 4 (AOI 4) - Location: Shanghai.](/AOI_Lists/AOI_4_Shanghai.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
 5. [Area of Interest 5 (AOI 5) - Location: Khartoum.](/AOI_Lists/AOI_5_Khartoum.html) 30cm imagery collected from DigitalGlobe’s [WorldView-3 satellite](https://www.spaceimagingme.com/downloads/sensors/datasheets/DG_WorldView3_DS_2014.pdf). The dataset includes building footprints and 8-band multispectral data.
+6. [Area of Interest 6 (AOI 6) - Location: Atlanta](/AOI_Lists/AOI_6_Atlanta.html) 27 50cm images collected from DigitalGlobes' [WorldView-2 satellite](https://dg-cms-uploads-production.s3.amazonaws.com/uploads/document/file/98/WorldView2-DS-WV2-rev2.pdf). The dataset includes building footprints and 8-band multi-spectral data
+
 
 <style> table{
     border-collapse: collapse;
@@ -54,6 +56,7 @@ td{
 | [AOI_3_Paris](/AOI_Lists/AOI_3_Paris.html)    | 1,030                   | 23,816                     |425 km                  |
 | [AOI_4_Shanghai](/AOI_Lists/AOI_4_Shanghai.html) | 1,000                   | 92,015                     |3537 km                  |
 | [AOI_5_Khartoum](/AOI_Lists/AOI_5_Khartoum.html) | 765                     | 35,503                    |1030 km                 |
+| [AOI_6_Atlanta](/AOI_Lists/AOI_6_Atlanta.html ) | 655 x 27                     | 126,747                    |3000 km                 |
 
 
 ## Dependencies
