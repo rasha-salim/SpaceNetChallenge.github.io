@@ -8,7 +8,7 @@ sidebar: datasets
 
 ## The Problem
 Can you help us automate mapping from off-nadir imagery? In this challenge, competitors are tasked with finding automated methods for extracting map-ready building footprints from high-resolution satellite imagery from high off-nadir imagery. In many disaster scenarios the first post-event imagery is from a more off-nadir image than is used in standard mapping use cases.  The ability to use higher off-nadir imagery will allow for more flexibility in acquiring and using satellite imagery after a disaster.  Moving towards more accurate fully automated extraction of building footprints  will help bring innovation to computer vision methodologies applied to high-resolution satellite imagery, and ultimately help create better maps where they are needed most.
- 
+
 Your task will be to extract building footprints from increasingly off-nadir satellite images. The polygon’s you create will be compared to ground truth, and the quality of the solutions will be measured using the SpaceNet metric.   
 
 
@@ -16,11 +16,11 @@ Your task will be to extract building footprints from increasingly off-nadir sat
 This dataset contains 27 8-Band WorldView-2 images taken over Atlanta, GA on December 22nd, 2009.  They range in off-nadir angle from 7 degrees to 54 degrees.  
 
 For the competition, the 27 images are broken into 3 segments based on their off-nadir angle:
-* Nadir: 0-25 degrees 
+* Nadir: 0-25 degrees
 * Off-nadir: 26 degrees - 40 degrees
 * Very Off-nadir 40-55 degrees
 
-The entire set of images was then tiled into 450m x 450m tiles. 
+The entire set of images was then tiled into 450m x 450m tiles.
 
 
 
@@ -30,16 +30,16 @@ See the [labeling guide and schema](/Labeling_Schema/SpaceNetBuildings_labeling_
 <style type="text/css">
 	table.tableizer-table {
 		font-size: 12px;
-		border: 1px solid #CCC; 
+		border: 1px solid #CCC;
 		font-family: Arial, Helvetica, sans-serif;
-	} 
+	}
 	.tableizer-table td {
 		padding: 4px;
 		margin: 3px;
 		border: 1px solid #CCC;
 	}
 	.tableizer-table th {
-		background-color: #104E8B; 
+		background-color: #104E8B;
 		color: #FFF;
 		font-weight: bold;
 	}
@@ -87,7 +87,7 @@ aws s3 ls s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/
 ### 2 Samples from each Off-Nadir Image - Off-Nadir Imagery Samples
 To download processed 450mx450m tiles of AOI_6_Atlanta (728.8 MB) with associated building footprints:
 ```
-aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet_Off-Nadir_Competition_Sample.tar.gz .
+aws s3 cp s3://spacenet-dataset/Spacenet_Off-Nadir_Dataset/SpaceNet-Off-Nadir_Sample/SpaceNet-Off-Nadir_Sample.tar.gz
 ```
 
 
@@ -116,7 +116,7 @@ aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Dataset/SpaceNet-Off-Nadir_Tr
 ### AOI 6 Atlanta -  Building Footprint Extraction Testing Data
 To download processed 450mx450m tiles of AOI 6 Atlanta (5.8 GB):
 ```
-aws s3 cp  s3://spacenet-dataset/SpaceNet_Off-Nadir_Competition/SpaceNet-Off-Nadir_Test_Public.tar.gz .
+aws s3 cp s3://spacenet-dataset/SpaceNet_Off-Nadir_Dataset/SpaceNet-Off-Nadir_Test/SpaceNet-Off-Nadir_Test_Public.tar.gz .
 ```
 
 # The Metric
