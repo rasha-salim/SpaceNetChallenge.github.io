@@ -1,6 +1,6 @@
 theme: jekyll-theme-tactile
 title: SpaceNet on AWS
-description: Spacenet on AWS Dataset Description and download instructions
+description: SpaceNet: Accelerating geospatial machine learning
 baseurl: ""
 url: "http://spacenetchallenge.github.io"
 github_username: dlindenbaum
@@ -13,11 +13,11 @@ plugins:
   - jekyll-sitemap
 
 ---
-title: The SpaceNet Challenge hosted on AWS
+title: SpaceNet: Accelerating geospatial machine learning
 description: Accelerating research and innovation in the developement of machine learning algorithms from remote sensing data including satellite imagery
-SpaceNet is a partnership between CosmiQ Works, Radiant Solutions, NVIDIA hosted on AWS
+SpaceNet is a partnership between CosmiQ Works, Digital Globe and Radiant Solutions hosted on AWS
 url: https://spacenetchallenge.github.io/
-logo: /assets/images/SpaceNet-320x320-300x300.png
+logo: /assets/images/SpaceNet-Logo_full-color.png
 ---
 
 analytics:
