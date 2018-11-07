@@ -47,7 +47,7 @@ td{
 The [AWS Command Line Interface (CLI)](https://aws.amazon.com/cli/) must be installed with an active AWS account. Configure the AWS CLI using 'aws configure'
 
 ```commandline
-aws s3 ls s3://spacenet-dataset/ --request-payer requester
+aws s3 ls s3://spacenet-dataset/ 
 ```
 
 

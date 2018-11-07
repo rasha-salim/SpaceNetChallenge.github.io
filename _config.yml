@@ -1,6 +1,6 @@
 theme: jekyll-theme-tactile
 title: SpaceNet on AWS
-description: SpaceNet: Accelerating geospatial machine learning
+description: "SpaceNet: Accelerating geospatial machine learning"
 baseurl: ""
 url: "http://spacenetchallenge.github.io"
 github_username: dlindenbaum
