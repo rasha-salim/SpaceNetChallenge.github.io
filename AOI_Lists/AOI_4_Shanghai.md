@@ -49,17 +49,22 @@ AOI_4_Shanghai
        └── RGB-PanSharpen     # Contains Tiles of RGB raster data from Worldview-3      
 ```
 ## Download instructions
+### AOI 3 - Paris
+To view the contents of the dataset
+```commandline
+aws s3 ls s3://spacenet-dataset/AOI_4_Shanghai/
+```
 
 # SpaceNet Roads Dataset
 ### AOI 4 - Shanghai -  Road Network Extraction Training
 To download processed 400mx400m tiles of AOI 4 (25 GB) with associated building footprints for training do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_4_Shanghai_Roads_Train.tar.gz --request-payer requester AOI_4_Shanghai_Roads_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/AOI_4_Shanghai_Roads_Train.tar.gz .
 ```
 ### AOI 4 - Shanghai - Road Network Extraction  Testing
 To download processed 400mx400m tiles of AOI 4 (8.1 GB) for testing do:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_4_Shanghai_Roads_Test_Public.tar.gz --request-payer requester AOI_4_Shanghai_Roads_Test_Public.tar.gz
+aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/AOI_4_Shanghai_Roads_Test_Public.tar.gz .
 ```
 
 
@@ -67,11 +72,11 @@ aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/
 ### AOI 4 - Shanghai - Training
 To download processed 200mx200m tiles of AOI 4 (23.4 GB) with associated building footprints do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_4_Shanghai/AOI_4_Shanghai_Train.tar.gz --request-payer requester AOI_4_Shanghai_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_4_Shanghai/AOI_4_Shanghai_Train.tar.gz .
 ```
 
 ### AOI 4 - Shanghai - Testing
 To download processed 200mx200m tiles of AOI 4 (7.7 GB) for testing do:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_4_Shanghai/AOI_4_Shanghai_Test_public.tar.gz --request-payer requester AOI_4_Shanghai_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_4_Shanghai/AOI_4_Shanghai_Test_public.tar.gz .
 ```

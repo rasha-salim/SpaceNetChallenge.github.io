@@ -73,20 +73,20 @@ Image Time: 2009-12-22
 ```
 AOI_6_Atlanta
 
-├── srcData/rasterData/AOI_6_Atlanta_nadir{Off-Nadir-Angle}_{CatID}/
+├── AOI_6_Atlanta_nadir{Off-Nadir-Angle}_{CatID}/
 │   ├── MUL    # Raw souce geotiffs of 8-Band Multi-Spectral raster data from WorldView-2
 │   ├── PAN    # Raw souce geotiffs of Panchromatic raster data from Worldview-2
 │   └── Pan-Sharpen # Raw souce geotiffs of RGB+NIR raster data from Worldview-2 pansharpened to 0.5m
-│      
+├── l1B/{CATID}
+   ├── Level 1Bs Raw source imagery without georectification or atmospheric correction
 
-```
 ## Download instructions
 
 ### AOI 6 - Atlanta
 
 To view the contents of the dataset
 ```commandline
-aws s3 ls spacenet-dataset/AOI_6_Atlanta/ 
+aws s3 ls s3://spacenet-dataset/AOI_6_Atlanta/ 
 ```
 
 ## License

@@ -27,29 +27,29 @@ s3://spacenet-dataset/
 ### AOI 1 - Rio de Janeiro
 To view the contents of the dataset
 ```commandline
-aws s3 ls spacenet-dataset/AOI_1_Rio/ --request-payer requester
+aws s3 ls spacenet-dataset/AOI_1_Rio/
 ```
 
 To download processed 200mx200m tiles of AOI 1 (3.4 GB) with associated building footprints do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_1_Rio/processedData/processedBuildingLabels.tar.gz --request-payer requester processedBuildingLabels.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_1_Rio/processedData/processedBuildingLabels.tar.gz .
 ```
 To download the Source Imagery Mosaic (3-band = 2.3 GB and 8-band = 6.5 GB):
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_1_Rio/srcData/rasterData/3-Band.tar.gz --request-payer requester 3-Band.tar.gz
-aws s3api get-object --bucket spacenet-dataset --key AOI_1_Rio/srcData/rasterData/8-Band.tar.gz --request-payer requester 8-Band.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_1_Rio/srcData/rasterData/3-Band.tar.gz .
+aws s3 cp s3://spacenet-dataset/AOI_1_Rio/srcData/rasterData/8-Band.tar.gz .
 ```
 To download the Source Vector Data (0.18 GB):
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_1_Rio/srcData/vectorData/Rio_BuildingLabels.tar.gz --request-payer requester Rio_BuildingLabels.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_1_Rio/srcData/vectorData/Rio_BuildingLabels.tar.gz .
 ```
 
 ### Point of Interest Dataset in ESRI GeoDatabase Form (31 GB)
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_1_Rio/srcData/vectorData/Rio_HGIS_Metro.gdb.tar.gz --request-payer requester Rio_HGIS_Metro.gdb.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_1_Rio/srcData/vectorData/Rio_HGIS_Metro.gdb.tar.gz .
 ```
 
 ### Point of Interest Dataset Extracted into GeoJSONs with associated .jpg (29 GB)
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_1_Rio/srcData/vectorData/Rio_HGIS_Metro_extract.tar --request-payer requester Rio_HGIS_Metro_extract.tar
+aws s3 cp s3://spacenet-dataset/AOI_1_Rio/srcData/vectorData/Rio_HGIS_Metro_extract.tar .
 ```

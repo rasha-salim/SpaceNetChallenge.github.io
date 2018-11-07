@@ -53,19 +53,19 @@ AOI_3_Paris
 ### AOI 3 - Paris
 To view the contents of the dataset
 ```commandline
-aws s3 ls spacenet-dataset/AOI_3_Paris/ --request-payer requester
+aws s3 ls s3://spacenet-dataset/AOI_3_Paris/ 
 ```
 
 # SpaceNet Roads Dataset
 ### AOI 3 - Paris -  Road Network Extraction Training
 To download processed 400mx400m tiles of AOI 3 (5.6 GB) with associated building footprints for training do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_3_Paris_Roads_Train.tar.gz --request-payer requester AOI_3_Paris_Roads_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/AOI_3_Paris_Roads_Train.tar.gz .
 ```
 ### AOI 3 - Paris - Road Network Extraction  Testing
 To download processed 400mx400m tiles of AOI 3 (1.9 GB) for testing do:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_3_Paris_Roads_Test_Public.tar.gz --request-payer requester AOI_3_Paris_Roads_Test_Public.tar.gz
+aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/AOI_3_Paris_Roads_Test_Public.tar.gz  .
 ```
 
 
@@ -73,11 +73,11 @@ aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/
 ### AOI 3 - Paris - Training - Building Extraction Training
 To download processed 200mx200m tiles of AOI 3 (5.3 GB) with associated building footprints do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_3_Paris/AOI_3_Paris_Train.tar.gz --request-payer requester AOI_3_Paris_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_3_Paris/AOI_3_Paris_Train.tar.gz .
 ```
 
 ### AOI 3 - Paris - Testing - Building Extraction Testing
 To download processed 200mx200m tiles of AOI 3 (1.8 GB) for testing do:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_3_Paris/AOI_3_Paris_Test_public.tar.gz --request-payer requester AOI_3_Paris_Test_public.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_3_Paris/AOI_3_Paris_Test_public.tar.gz .
 ```

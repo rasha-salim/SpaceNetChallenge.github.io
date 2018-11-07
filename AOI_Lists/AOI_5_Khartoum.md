@@ -53,30 +53,30 @@ AOI_5_Khartoum
 ### AOI 5 - Khartoum
 To view the contents of the dataset
 ```commandline
-aws s3 ls spacenet-dataset/AOI_5_Khartoum/ --request-payer requester
+aws s3 ls s3://spacenet-dataset/AOI_5_Khartoum/
 ```
 
 # SpaceNet Roads Dataset
 ### AOI 5 - Khartoum -  Road Network Extraction Training
 To download processed 400mx400m tiles of AOI 5 (25 GB) with associated building footprints for training do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Train.tar.gz --request-payer requester AOI_5_Khartoum_Roads_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Train.tar.gz .
 ```
 ### AOI 5 - Khartoum - Road Network Extraction  Testing
 To download processed 400mx400m tiles of AOI 5 (8.1 GB) for testing do:
 ```
-aws s3api get-object --bucket spacenet-dataset --key SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Test_Public.tar.gz --request-payer requester AOI_5_Khartoum_Roads_Test_Public.tar.gz
+aws s3 cp s3://spacenet-dataset/SpaceNet_Roads_Competition/AOI_5_Khartoum_Roads_Test_Public.tar.gz .
 ```
 
 # SpaceNet Buildings Dataset
 ### AOI 5 - Khartoum - Training
 To download processed 200mx200m tiles of AOI 2 (4.7 GB) with associated building footprints do the following:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_5_Khartoum/AOI_5_Khartoum_Train.tar.gz --request-payer requester AOI_5_Khartoum_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_5_Khartoum/AOI_5_Khartoum_Train.tar.gz .
 ```
 
 ### AOI 5 - Khartoum - Testing
 To download processed 200mx200m tiles of AOI 2 (1.6 GB) for testing do:
 ```
-aws s3api get-object --bucket spacenet-dataset --key AOI_5_Khartoum/AOI_5_Khartoum_Test_public.tar.gz --request-payer requester AOI_5_Khartoum_Train.tar.gz
+aws s3 cp s3://spacenet-dataset/AOI_5_Khartoum/AOI_5_Khartoum_Test_public.tar.gz .
 ```
